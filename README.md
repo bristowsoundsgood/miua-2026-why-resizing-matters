@@ -26,7 +26,9 @@ Preprocessing implementations are also included. Note that these are separate Py
 
 ### **Models** ###
 
-10 models were used, 5 CNN and 5 ViT. Some were pre-trained on ImageNet-1K, while others were pre-trained on ImageNet-21K. As of writing this, `torchvision` in PyTorch only provides pre-trained weights for models trained on ImageNet-1K. Therefore, the ImageNet-21K models require extra accommodation to function properly. Please follow the training scripts provided in this repository.
+10 models were used, 5 CNN and 5 ViT. Some were pre-trained on ImageNet-1K, while others were pre-trained on ImageNet-21K. As of writing this, `torchvision` in PyTorch only provides pre-trained weights for models trained on ImageNet-1K. Therefore, the ImageNet-21K models require extra accommodation to function properly. Please follow the training scripts provided in this repository. 
+
+Please note that some training scripts require imports from Big Transfer (https://github.com/google-research/big_transfer). These need to be sourced manually.
 
 | **Architecture** | **Model** | **Link** |
 | --- | --- | --- |
