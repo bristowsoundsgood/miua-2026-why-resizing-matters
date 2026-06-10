@@ -1,0 +1,4 @@
+Loss,Accuracy,False Negative Rate,False Positive Rate,Negative Predictive Value,Positive Predictive Value,Sensitivity,Specificity,F1-Score,F2-Score,Matthews Correlation Coefficient,AUC-ROC,AUC-PR,Model Training Time
+0.5753298316683088,0.7219730941704036,0.1836734693877551,0.352,0.8181818181818182,0.6451612903225806,0.8163265306122449,0.648,0.7207207207207207,0.7751937984496124,0.46383455892693076,0.8522448979591837,0.8306243314776607,772.6100130999985
+
+# NOTE -- begun overfitting very, very quickly!
