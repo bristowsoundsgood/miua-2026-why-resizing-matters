@@ -43,3 +43,16 @@ Please note that some training scripts require imports from Big Transfer (https:
 |  | ViT-Large/16-1K | https://docs.pytorch.org/vision/main/models/generated/torchvision.models.vit_l_16.html |
 |  | ViT-Large/16-21K | https://huggingface.co/google/vit-large-patch16-224-in21k |
 
+### Citation ###
+If you use the curated dataset or code from this repository, please consider citing the paper:
+
+```bibtex
+@InProceedings{bristow2026miua,
+    author    = {Joe Bristow and Moi Hoon Yap},
+    title     = {Why Resizing Matters: Insights from Deep Learning on Breast Ultrasound},
+    booktitle = {Proceedings of the Medical Image Understanding and Analysis (MIUA)},
+    month     = {July},
+    year      = {2026},
+    pages     = {to appear}
+}
+```
